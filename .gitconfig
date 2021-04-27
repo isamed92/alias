@@ -1,0 +1,19 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Isaias
+	email = isamed92@gmail.com
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	s = status -sb
+[credential]
+	helper = manager
+[core]
+	editor = C:/Program Files/Git/usr/bin/vim
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff \"\" \"\"
