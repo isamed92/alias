@@ -8,7 +8,7 @@ Open your git config file or use this command in git bash and paste the alias do
 1) See the file gitalias.txt.
 2) Copy/paste anything you like into your own .gitconfig file.
 
-###For windows 
+### For windows 
 Go to 
 ```C://Users/UserName/.gitconfig```
 
